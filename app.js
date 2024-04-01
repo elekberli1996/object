@@ -141,7 +141,58 @@
 // ***********************************
 
 // // 4 array cersinde qiymet ortalamsin tapin
-
+// let students=[
+//             {
+//                 id:1,
+//                 name:"emin",
+//                 surname:"elekberli",
+//                 age:28,
+//                 grade:100,
+//                 hobbies:["sahmat","football", "basketball"],
+//                 group_id:1
+            
+//             },
+//             {
+//                 id:2,
+//                 name:"kenan",
+//                 surname:"agayev",
+//                 age:26,
+//                 grade:98,
+//                 hobbies:["coding","football", "tennis"],
+//                 group_id:1
+            
+//             },
+//             {
+//                 id:3,
+//                 name:"esger",
+//                 surname:"aliyev",
+//                 age:28,
+//                 grade:85,
+//                 hobbies:["sahmat","football", "reading"],
+//                 group_id:2
+            
+//             },
+//             {
+//                 id:4,
+//                 name:"emin",
+//                 surname:"gulmemmedli",
+//                 age:28,
+//                 grade:80,
+//                 hobbies:["sahmat","football", "basketball"],
+//                 group_id:3
+            
+//             },
+//             {
+//                 id:5,
+//                 name:"rauf",
+//                 surname:"Hesenov",
+//                 age:28,
+//                 grade:100,
+//                 hobbies:["sahmat","football", "basketball"],
+//                 group_id:3
+            
+//             }
+//         ];
 
 // let grade_aveage;
 // let grades=0;
@@ -154,13 +205,14 @@
 
 // /// 5 qiymeti 90dan asaqi olan telebeleri cixart
 
-
+// let array=[];
 // let filters_student=students.filter(student=>student.grade<90)
 // console.log(filters_student);
 // filters_student.map(s=>{
-//     alert(`${s.name} ${s.surname} notunuz ${s.grade}.. 90dan asaqidir..`)
+//     array.push(`${s.name} ${s.surname} notunuz ${s.grade}`)
+    
 // })
-
+// alert(array+". notunuz 90dan asaqidir")
 
 
 
